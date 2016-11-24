@@ -1,0 +1,17 @@
+<script type="text/javascript">
+	var a={
+		name:'nima',
+		age:12,
+		shenggao:175
+	};
+	var b=a.age||13;
+	console.log(b);//结果为12
+	var c=a.woca||14;
+	console.log(c);//结果为14
+	var d=a.woqu&&a.name&&a.age;
+	console.log(d);//结果为undefined
+	var e=a.age&&a.name;
+	console.log(e);//结果为nima
+	var f=a.name&&a.age;
+	console.log(f);//结果为12
+</script>
