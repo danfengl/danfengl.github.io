@@ -423,3 +423,22 @@ Small Device Styles
   }
 
 }
+
+
+#rili {
+  border:1px solid blue;
+  width: 166px;
+  text-align: center;
+  background-color: #CD6090;
+
+
+}
+
+#year {
+    width: 48px;
+    background-color: #FAEBD7;
+
+}
+#month {
+  background-color: #FAEBD7;
+}
