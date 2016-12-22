@@ -32,6 +32,25 @@ gfbgfz bgggcVx vcc
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
 <p>复制的，别介意
+  <div id="rili">
+  <input type="number" id="year" placeholder="请输入年份" maxlength="4" value="2016" oninput="if(value.length>4) value=value.slice(0,4)">
+  <select id="month">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+    <option>11</option>
+    <option selected = "selected">12</option>
+  </select>
+  <div id="nima"></div>
+</div>
+
 	<span id="clock" style="color: blue;display:block;"></span>
 </p>
 <a href="lizi.html" style="text-decoration: none;color:grey;font-weight: bold;">看看咯</a>
@@ -72,5 +91,8 @@ gfbgfz bgggcVx vcc
   </body>
   <script type="text/javascript">
   	clock('clock');
+    zhuyerili();
+    document.getElementById('year').onchange=zhuyerili;
+    document.getElementById('month').onchange=zhuyerili;
   </script>
 </html>

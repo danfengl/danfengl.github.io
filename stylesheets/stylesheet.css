@@ -426,13 +426,32 @@ Small Device Styles
 
 
 #rili {
-  border:1px solid blue;
-  width: 166px;
+  border:1px solid  #708090;
   text-align: center;
   background-color: #CD6090;
-
-
+  padding: 10px;
+  display: inline-block;
+  FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#EEAD0E,endColorStr=#fafafa); /*IE*/ 
+  background:-moz-linear-gradient(top,#EEAD0E,#fafafa);/*火狐*/ 
+  background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#EEAD0E), to(#fafafa));/*谷歌*/ 
+  background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #EEAD0E),color-stop(1, #fafafa));/* Safari & Chrome*/ 
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#EEAD0E', endColorstr='#fafafa'); /*IE6 & IE7*/ 
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#EEAD0E', endColorstr='#fafafa')"; /* IE8 */
 }
+div#nima table
+{
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+
+div#nima table tr td
+{
+  padding: 5px;
+  border:1px solid black;
+}
+
+
 
 #year {
     width: 48px;
