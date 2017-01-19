@@ -6,7 +6,7 @@
 		太阳中学初一下学期课程表
 	</title>
 	<style type="text/css">
-		body  {
+		body {
 			font-size:2em;
 		}
 		table {
@@ -14,20 +14,26 @@
 			border-collapse: collapse;
 			text-align: center;
 			margin: 0px auto;
+			
 		}
 		table th,table td {
 			border: 1px solid #778899;
 			padding: 5px;
 			
 		}
-		#thead {
-
+		#表尾 {
+			text-align: left;
+			border-left: hidden;
+			border-right: hidden;
+			border-bottom: hidden;
 		}
+
 		
 		
 	</style>
 </head>
 <body>
+	
 	<table class="table">
 		<tr>
 			<th colspan="6">太阳中学初一下学期课程表</th>
@@ -89,7 +95,11 @@
 			<td>体育</td>
 			<td>科学</td>
 		</tr>
-
+		<tr>
+			<td id="表尾" colspan="6" frame=above>备注：刘丹凤制作</td>
+		</tr>
 	</table>
+	
+	
 </body>
 </html>
